@@ -7,6 +7,9 @@ class Colors:
     orange = (255, 153, 51)
     light_blue = (102, 204, 255)
     pink = (255, 102, 178)
+    white = (255, 255, 255)
+    dark_violet = (80, 4, 110)
+    light_violet = (141, 88, 163)
 
     @classmethod
     def get_cell_colors(cls):
