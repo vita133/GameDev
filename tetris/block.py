@@ -12,7 +12,6 @@ class Block:
         self.rotation_state = 0
         self.colors = Colors.get_cell_colors()
 
-
     def move(self, rows, columns):
         self.row_offset += rows
         self.column_offset += columns
@@ -24,6 +23,16 @@ class Block:
             position = Position(position.row + self.row_offset, position.column + self.column_offset)
             moved_tiles.append(position)
         return moved_tiles
+
+    def rotate(self):
+        self.rotation_state +=1
+        if self.rotation_state == len(self.cells):
+            self.rotation_state = 0
+
+    def undo_rotation(self):
+        self.rotation_state -=1
+        if self.rotation_state == 0:
+            self.rotation_state = len(self.cells) - 1
 
     def draw(self, screen):
         tiles = self.get_cell_positions()
