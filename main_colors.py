@@ -1,12 +1,4 @@
 class Colors:
-    dark_grey = (26, 31, 40)
-    bright_yellow = (255, 223, 0)
-    turquoise = (0, 204, 204)
-    bright_red = (255, 51, 51)
-    lime_green = (102, 255, 102)
-    orange = (255, 153, 51)
-    light_blue = (102, 204, 255)
-    pink = (255, 102, 178)
     white = (255, 255, 255)
     dark_violet = (80, 4, 110)
     light_violet = (141, 88, 163)
