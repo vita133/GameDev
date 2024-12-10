@@ -20,7 +20,11 @@ Ensure you have the following installed:
    ```bash
    pip install pygame
    ```
-
+3. **pygame-ce library**  
+   Install it via pip:
+   ```bash
+   pip install pygame-ce
+   ```
 ---
 
 ## How to Run
