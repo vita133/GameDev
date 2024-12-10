@@ -20,10 +20,15 @@ class Grid:
             return True
         return False
 
+    def is_empty(self, row, column):
+        if self.grid[row][column] == 0:
+            return True
+        return False
+
     def draw(self, screen):
         for row in range(self.num_rows):
             for column in range(self.num_cols):
                 cell_value = self.grid[row][column]
-                cell_rect = pygame.Rect(column*self.cell_size + 1, row*self.cell_size + 1,
+                cell_rect = pygame.Rect(column * self.cell_size + 1, row * self.cell_size + 1,
                 self.cell_size - 1, self.cell_size - 1)
                 pygame.draw.rect(screen, self.colors[cell_value], cell_rect)
