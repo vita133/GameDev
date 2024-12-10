@@ -1,6 +1,6 @@
 # Tetris & 2048 Games
 
-A simple implementation of the popular game **2048** using Python and Pygame. This game includes basic gameplay mechanics and a graphical user interface.
+A simple implementation of the popular games **2048** and **Tetris** using Python and Pygame. This game includes basic gameplay mechanics and a graphical user interface.
 
 ---
 
@@ -28,13 +28,9 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/vita133/GameDev.git
    ```
-2. Navigate to the project directory:
+2. Run the game:
    ```bash
-   cd 2048-game
-   ```
-3. Run the game:
-   ```bash
-   python game.py
+   python main_menu.py
    ```
 ---
 
@@ -42,3 +38,15 @@ Ensure you have the following installed:
 - Use the arrow keys to slide tiles across the board.
 - Combine tiles with the same number to increase your score.
 - The game ends when no more moves are possible.
+
+
+## How to Play Tetris
+- **Move**: Use the **arrow keys** to move the tetrominoes.
+  - **Left Arrow**: Move the tetromino left.
+  - **Right Arrow**: Move the tetromino right.
+  - **Down Arrow**: Move the tetromino down faster.
+  - **Up Arrow**: Rotate the tetromino to fit better in the grid.
+- **Objective**: The goal is to complete horizontal lines without gaps. When a line is completed, it will increase your score.
+- **Game Over**: The game ends when the tetrominoes stack up to the top of the screen and no more pieces can be placed. Press any key to restart the game.
+- **Back to Main Menu**: You can return to the main menu by clicking the **Back** button located in the bottom-right corner of the screen.
+
