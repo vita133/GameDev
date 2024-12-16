@@ -39,9 +39,14 @@ Ensure you have the following installed:
 ---
 
 ## How to Play 2048
-- Use the arrow keys to slide tiles across the board.
-- Combine tiles with the same number to increase your score.
-- The game ends when no more moves are possible.
+- **Move**: Use the **arrow keys** to slide the tiles across the board in any direction.
+  - **Left Arrow**: Move all tiles to the left.
+  - **Right Arrow**: Move all tiles to the right.
+  - **Up Arrow**: Move all tiles upwards.
+  - **Down Arrow**: Move all tiles downwards.
+- **Objective**: The goal of 2048 is to combine tiles with the same number. To do this, keep sliding tiles to combine them and create higher values.
+- **Game Over**: The game ends when there are no more valid moves available. Try to get the highest score possible before this happens!
+- **Score**: Your score increases every time you combine tiles. Keep track of your progress and aim to reach 2048 or beyond for the best score!
 
 
 ## How to Play Tetris
@@ -54,3 +59,9 @@ Ensure you have the following installed:
 - **Game Over**: The game ends when the tetrominoes stack up to the top of the screen and no more pieces can be placed. Press any key to restart the game.
 - **Back to Main Menu**: You can return to the main menu by clicking the **Back** button located in the bottom-right corner of the screen.
 
+## Screenshots
+<img src="images/image1.png" alt="Main menu" width="400"/>
+<img src="images/image3.png" alt="Tetris" width="400"/>
+<img src="images/image4.png" alt="End Screen Tetris" width="400"/>
+<img src="images/image.png" alt="2048 game" width="400"/>
+<img src="images/image2.png" alt="End Screen" width="400"/>
