@@ -10,8 +10,8 @@ class Game:
         self.window = pygame.display.set_mode((WIDTH, HIGHT))
         pygame.display.set_caption("2048")
         self.clock = pygame.time.Clock()
-        self.font = pygame.font.SysFont("comicsans", 60, bold=True)
-        self.small_font = pygame.font.SysFont("comicsans", 30, bold=True)
+        self.font = pygame.font.SysFont(None, 60, bold=True)
+        self.small_font = pygame.font.SysFont(None, 30, bold=True)
         self.tiles = {}
         self.generate_tiles()
         self.points = 0
